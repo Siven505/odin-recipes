@@ -1,3 +1,6 @@
+* {
+  border: 0px solid black;
+}
 body {
   background-color: rgb(167, 223, 199);
 }
@@ -5,12 +8,15 @@ body {
 h1 {
   font-size: 85px;
   text-align: center;
-  color: rgb(82, 84, 218);
+  color: rgb(27, 28, 87);
+  border-bottom: 4px solid;
+  margin-top: -1px;
 }
 
 h2 {
   font-size: 50px;
   text-align: center;
+  color: rgb(73, 73, 73);
 }
 
 h3, p {
@@ -31,7 +37,12 @@ h2, h3, p, ul, ol {
   }
 
 .picture {
- text-align: center;
+ border: 3px solid;
+ padding: 0px;
+ height: 300px;
+ width: 300px;
+ box-sizing: content-box;
+ margin-left: 400px;
 }
  
 #pan {
@@ -48,4 +59,9 @@ h2, h3, p, ul, ol {
 
 #pic {
   text-align: center;
+  border: 3px solid;
+  height: auto;
+  width: 350px;
+  padding-bottom: px;
+  margin-left: 420px
 }
